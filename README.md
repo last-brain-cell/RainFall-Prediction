@@ -1,11 +1,25 @@
 # Rainfall-Predictor-Using-Random-Forest
 
+This Project was made during a 48-hour Datathon organized by ACM MUJ Student Chapter as a part of their 
+Special Interest Group Fest(SIGFEST).
+
+We received 2nd place in this Datathon.
+
+Do Check out our Presentation and Project Report which provides an Overview of how stuff works in the project 
+and how we have implemented it.
+
+Contributers - 
+   
+- Naad Dantale(myself)  - naadkd@gmail.com
+- Arnav Vatsal
+- Priyansh Goel - priyanshgoel@gmail.com
+
 This study presents a model that processes rainfall data across various subdivisions within the Indian peninsula using Random Forest Regression, which is an ensemble learning technique that leverages multiple decision trees. The model was developed as part of this Datathon project. This model makes forecasts regarding the amount of precipitation that will fall on a particular subdivision during a specific year or month. In addition, this project used a variety of data analysis tools, such as scikit-learn, Pandas, Matplotlib, and seaborn, in order to evaluate the effectiveness of the dataset. The findings were displayed graphically for easy comprehension using various representations. This project is now open to participation from anyone thanks to the incorporation of this model into a website built with Streamlit. The website retrieves data from our model and displays it to users.
 
 
 Table of Contents
 
-Installation
+Installation    
 Usage
 Contributing
 License
