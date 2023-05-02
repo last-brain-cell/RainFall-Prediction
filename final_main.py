@@ -30,7 +30,7 @@ else:
 data_load_state = st.markdown('### Running...')
 acc_load_state = st.text('Accuracy: Calculating...')
 
-df = pd.read_csv("/Users/naad/Documents/coding/VSCode-Projects/Datathon/rainfall in india 1901-2015.csv")
+df = pd.read_csv("rainfall in india 1901-2015.csv")
 
 df = df.fillna(df.mean())
 df["SUBDIVISION"].nunique()
