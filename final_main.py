@@ -35,7 +35,7 @@ df = pd.read_csv("rainfall in india 1901-2015.csv")
 df = df.fillna(0)
 df["SUBDIVISION"].nunique()
 print(df["SUBDIVISION"].unique())
-group = df.groupby('SUBDIVISION')
+group = df.groupby('SUBDIVISION')['YEAR', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
 
 data = group.get_group(subdiv)
 # data.head()
